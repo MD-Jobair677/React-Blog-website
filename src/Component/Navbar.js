@@ -26,6 +26,7 @@ const Navbar = () => {
       <div className='seller'>Became a seller</div>
 
 
+
       </div>
 
 

@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -48,4 +52,49 @@ body{
     width: 15%;
     border-radius: 10px;
     padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 2.5rem;
+    padding: 15px;
+}
+
+.left_sectoin{
+    width: 15%;
+    height: 80vh;
+    background-color: rgb(50, 50, 66);
+    border-radius: 10px;
+}
+.post_sectoin{
+    width: calc(100% - 30%);
+    height: 100vh;
+    background-color: rgb(50, 50, 66);
+    border-radius: 10px;
+}
+.right_sectoin{
+    width: 15%;
+    height: 80vh;
+    background-color: rgb(50, 50, 66);
+    border-radius: 10px;
+}
+
+/* left_sidebar_container */
+
+.left_sidebar_container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.left_sidebar_container .item{
+    padding: 10px 0px;
+}
+
+.icon{
+    margin-right:5px;
 }
