@@ -6,6 +6,8 @@ import Post from './Component/Post';
 const App = () => {
   return (
     <div>
+      
+
       <Navbar />
 
 
@@ -19,6 +21,11 @@ const App = () => {
 
         <div className='post_sectoin'>
         <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+       
+        
         </div>
         
         <div className='right_sectoin'>

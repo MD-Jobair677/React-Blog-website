@@ -1,0 +1,18 @@
+
+/* left_sidebar_container */
+
+.left_sidebar_container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.left_sidebar_container .item{
+    padding: 10px 0px;
+}
+
+.icon{
+    margin-right:5px;
+}

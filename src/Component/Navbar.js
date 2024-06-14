@@ -1,9 +1,10 @@
 import React from 'react'
+import './Navbar.css'
 import { FcSearch } from "react-icons/fc";
 import { LuListFilter } from "react-icons/lu";
 const Navbar = () => {
   return (
-    <div>
+   
 
 
 <div className='nav-bar'>
@@ -30,7 +31,7 @@ const Navbar = () => {
       </div>
 
 
-    </div>
+    
   )
 }
 

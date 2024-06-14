@@ -1,4 +1,5 @@
 import React from 'react'
+import './LeftSideBar.css'
 import { FaHome } from "react-icons/fa";
 import { IoIosNotifications } from "react-icons/io";
 import { GiShoppingBag } from "react-icons/gi";
